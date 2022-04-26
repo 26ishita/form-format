@@ -35,42 +35,5 @@
         
 </body>
 
-<script>
-    function validateForm(){
-        var pass = document.getElementById("pass").value;
-        if (pass < 6){
-            document.getElementsByClassName("formerror")[0].innerHTML =" **password is too short";
-            return false;
-        }
 
-    }
-
-
-
-
-
-   /* function seterror(id, error){
-        element = documnet.getElementById(id);
-        element.getElementsByClassName('formerror')[0].innerHTML = error;
-
-    } 
-    
-    function validateForm(){
-        var returnval =  true;
-        var name = document.forms['myform']["username"].value;
-        if(name.length <5){
-            seterror("name" ,"length of Username is too Short");
-            returnval = false;
-        }
-
-        var password =document.forms['myform']["password"].value;
-        if(name.length < 6){
-            seterror("pass" ,"length of password should be atleast 6 digit");
-            returnval = false;
-        }
-        return returnval;
-    }*/
-
-
-</script>
 </html>
